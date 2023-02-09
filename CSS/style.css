@@ -9,163 +9,215 @@ body{
 	perspective: 500px;
 }
 */
-.d1{
-	width: 200px;;
+.d1 {
+	width: 200px;
+	;
 	height: 200px;
-	
+
 	background-color: yellowgreen;
 
 	overflow-x: scroll;
 	overflow-y: hidden;
 }
-.d2{
-	width: 200px;;
+
+.d2 {
+	width: 200px;
+	;
 	height: 200px;
-	
+
 	background-color: tomato;
 
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
-.font_awesome{
+
+.font_awesome {
 	color: turquoise;
-	
+
 	text-align: center;
-	
+
 	font-size: 50px;
 }
 
 
 /*****************/
 
-@keyframes bg{
-	from{background-color: blue;}
-	to{background-color: violet;}
+@keyframes bg {
+	from {
+		background-color: blue;
+	}
+
+	to {
+		background-color: violet;
+	}
 }
 
-@keyframes move_it1{
-/*
+@keyframes move_it1 {
+	/*
 	from{left: 0px;}
 	to{left: 800px;}
 */
-	
-	0%{left: 0px;top: 0px;}
-	25%{left: 500px;top: 0px;}
-	50%{left: 500px;top: 300px;}
-	75%{left: 0px;top: 300px;}
-	100%{left: 0px;top: 0px;}
+
+	0% {
+		left: 0px;
+		top: 0px;
+	}
+
+	25% {
+		left: 500px;
+		top: 0px;
+	}
+
+	50% {
+		left: 500px;
+		top: 300px;
+	}
+
+	75% {
+		left: 0px;
+		top: 300px;
+	}
+
+	100% {
+		left: 0px;
+		top: 0px;
+	}
 }
 
-@keyframes change_img{
-	0%{background-image: url("../Images/caleb-woods-VZILDYoqn_U-unsplash.jpg")}
-	50%{background-image: url("../Images/barrett-ward-1qQx3LHaYGg-unsplash.jpg")}
-	100%{background-image: url("../Images/thiago-cerqueira-Wr3HGvx_RSM-unsplash.jpg")}
+@keyframes change_img {
+	0% {
+		background-image: url("../Images/caleb-woods-VZILDYoqn_U-unsplash.jpg")
+	}
+
+	50% {
+		background-image: url("../Images/barrett-ward-1qQx3LHaYGg-unsplash.jpg")
+	}
+
+	100% {
+		background-image: url("../Images/thiago-cerqueira-Wr3HGvx_RSM-unsplash.jpg")
+	}
 }
 
-@keyframes move_it{
-	0%{left: 0px;}
-	25%{left: 100px;}
-	50%{left: 200px;}
-	75%{left: 300px;}
-	100%{left: 400px;}
+@keyframes move_it {
+	0% {
+		left: 0px;
+	}
+
+	25% {
+		left: 100px;
+	}
+
+	50% {
+		left: 200px;
+	}
+
+	75% {
+		left: 300px;
+	}
+
+	100% {
+		left: 400px;
+	}
 }
 
 
 
-.d3{
+.d3 {
 	width: 640px;
 	height: 470px;
-	
+
 	background-color: darkgray;
-	
-/*	margin: auto;*/
-	
+
+	/*	margin: auto;*/
+
 	animation-name: bg;
-/*	animation-name: change_img;*/
-/*	animation-name: move_it1;*/
-/*	animation-name: move_it;*/
-	
+	/*	animation-name: change_img;*/
+	/*	animation-name: move_it1;*/
+	/*	animation-name: move_it;*/
+
 	background-size: 100% 100%;
 	animation-duration: 10s;
 	animation-timing-function: ease;
-	
-/*	animation-iteration-count: 3;*/
-	
+
+	/*	animation-iteration-count: 3;*/
+
 	animation-direction: alternate;
-	
+
 	animation-delay: 3s;
-	animation-fill-mode: both; 
-	
+	animation-fill-mode: both;
+
 	position: relative;
 	top: 0px;
 }
-.d3:hover{
+
+.d3:hover {
 	animation-play-state: paused;
 }
 
 
 /*2D */
 
-.d4{
+.d4 {
 	width: 200px;
 	height: 200px;
-	
-/*	background-color: violet;*/
+
+	/*	background-color: violet;*/
 	background-image: url("../Images/toa-heftiba-jNYFmC5ZjoI-unsplash.jpg");
-	
+
 	text-align: center;
 	line-height: 200px;
-	
-	transition: all 3s ;
-	
+
+	transition: all 3s;
+
 	position: relative;
-	top: 300px;left: 300px;
-	
-/*	margin: auto;*/
-	
-/*	transform-origin: top left;*/
+	top: 300px;
+	left: 300px;
+
+	/*	margin: auto;*/
+
+	/*	transform-origin: top left;*/
 }
 
-.d4:hover{
-/*	transform: translate(-20px,-50px);*/
-	
-/*	transform: rotate(45deg);*/
-	
-/*	transform: rotate(45deg);*/
-	
-/*	transform: scale(1.5,1.2);*/
-	
-/*	transform: skew(20deg,20deg);*/
-	
-/*	transform: matrix(rotate(45deg),skew(20deg,20deg));*/
+.d4:hover {
+	/*	transform: translate(-20px,-50px);*/
 
-	
-	
-	
-/*	matrix by css generator "angrytools site"*/
-/*
+	/*	transform: rotate(45deg);*/
+
+	/*	transform: rotate(45deg);*/
+
+	/*	transform: scale(1.5,1.2);*/
+
+	/*	transform: skew(20deg,20deg);*/
+
+	/*	transform: matrix(rotate(45deg),skew(20deg,20deg));*/
+
+
+
+
+	/*	matrix by css generator "angrytools site"*/
+	/*
 	transform:matrix(-0.35,2.47,0.57,2.26,100,100);
 -ms-transform:matrix(-0.35,2.47,0.57,2.26,100,100);
 -webkit-transform:matrix(-0.35,2.47,0.57,2.26,100,100);
 */
-	
-	
-/*	transform: translateZ(300px);*/
-/*	transform: translateX(300px);*/
-/*	transform: translate3d(500px,300px,300px);*/
-	
-	
-/*	rotatez (around the z-axis) is similar as rotate*/
-	
-/*	transform: rotateX(50deg);*/
-/*	transform: rotateZ(50deg);*/
-	
-/*	transform: rotate3d(1,1,1,45deg);*/
-	
-	
-/*	transform: scale3d(2,2,4) rotateY(45deg);*/
 
-	
+
+	/*	transform: translateZ(300px);*/
+	/*	transform: translateX(300px);*/
+	/*	transform: translate3d(500px,300px,300px);*/
+
+
+	/*	rotatez (around the z-axis) is similar as rotate*/
+
+	/*	transform: rotateX(50deg);*/
+	/*	transform: rotateZ(50deg);*/
+
+	/*	transform: rotate3d(1,1,1,45deg);*/
+
+
+	/*	transform: scale3d(2,2,4) rotateY(45deg);*/
+
+
 }
 
 
@@ -213,6 +265,6 @@ body{
 
 /*bootstrap*/
 
-.container-fluid{
+.container-fluid {
 	background-color: aqua;
 }
